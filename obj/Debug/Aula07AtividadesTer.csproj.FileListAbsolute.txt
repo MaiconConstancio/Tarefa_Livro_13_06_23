@@ -1,0 +1,7 @@
+D:\Users\maicon.sconstancio\source\repos\Aula07AtividadesTer\Aula07AtividadesTer\bin\Debug\Aula07AtividadesTer.exe.config
+D:\Users\maicon.sconstancio\source\repos\Aula07AtividadesTer\Aula07AtividadesTer\bin\Debug\Aula07AtividadesTer.exe
+D:\Users\maicon.sconstancio\source\repos\Aula07AtividadesTer\Aula07AtividadesTer\bin\Debug\Aula07AtividadesTer.pdb
+D:\Users\maicon.sconstancio\source\repos\Aula07AtividadesTer\Aula07AtividadesTer\obj\Debug\Aula07AtividadesTer.csproj.AssemblyReference.cache
+D:\Users\maicon.sconstancio\source\repos\Aula07AtividadesTer\Aula07AtividadesTer\obj\Debug\Aula07AtividadesTer.csproj.CoreCompileInputs.cache
+D:\Users\maicon.sconstancio\source\repos\Aula07AtividadesTer\Aula07AtividadesTer\obj\Debug\Aula07AtividadesTer.exe
+D:\Users\maicon.sconstancio\source\repos\Aula07AtividadesTer\Aula07AtividadesTer\obj\Debug\Aula07AtividadesTer.pdb
