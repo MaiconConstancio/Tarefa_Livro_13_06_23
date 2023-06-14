@@ -10,36 +10,12 @@ namespace Aula07AtividadesTer
     {
         static void Main(string[] args)
         {
+            //Tarefas passadas pelo Conrado
 
-            double media;
-            double nota01 = 0;
-            double nota02 = 0;
-            double nota03 = 0;
-
-
-
-
-            Console.WriteLine("Boa tarde, a nota do PRIMEIRO aluno?");
-            nota01 = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("Qual a nota do SEGUNDO aluno?");
-            nota02 = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("Qual a nota do TERCEIRO aluno?");
-            nota03 = double.Parse(Console.ReadLine());
-
-            
-            if (nota01 > nota02 && nota01 > nota03)
-            {
-                media = nota01;
-                //nota01 = media;
-            }
-
-            Console.WriteLine(value: $"A maior nota é {media}");
-
-            Console.ReadKey(); ///FINAL
-
-
+            TarefaLivroPagina77_Atividade01();
+            TarefaLivroPagina81_Atividade02();
+            TarefaLivroPagina84_Atividade03();
+            TarefaLivroPagina87_Atividade03();
         }
 
 
@@ -115,7 +91,41 @@ namespace Aula07AtividadesTer
 
         void TarefaLivroPagina87_Atividade03()
         {
-               AAAAAAAAAA
+            //double media;
+            //double nota01 = 0;
+            //double nota02 = 0;
+            //double nota03 = 0;
+
+            double nota01, nota02, nota03, media = 0;
+
+
+
+            Console.WriteLine("Boa tarde, a nota do PRIMEIRO aluno?");
+            nota01 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Qual a nota do SEGUNDO aluno?");
+            nota02 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Qual a nota do TERCEIRO aluno?");
+            nota03 = double.Parse(Console.ReadLine());
+
+
+            if (nota01 > nota02 && nota01 > nota03)
+            {
+                media = nota01;
+            }
+            else if (nota02 > nota01 && nota02 > nota03)
+            {
+                media = nota02;
+            }
+            else if (nota03 > nota02 && nota03 > nota01)
+            {
+                media = nota03;
+            }
+
+            Console.WriteLine($"A maior nota é {media}.");
+
+            Console.ReadKey(); ///FINAL
         }
 
 
